@@ -1,0 +1,12 @@
+body{ width: 100%; height: 100vh;  background-color: #d15893; color:#f5f6f7; font-family: Tahoma; font-size: 16px;}
+label{display: block; margin: 0.5rem 0;}
+h1,p{margin: 1em auto; text-align: center;}
+form{margin: 0 auto; max-width: 500px; min-width: 300px; width: 60vw; padding-bottom: 2em;}
+fieldset{border: 0; padding-top: 2rem; padding-bottom: 2rem; padding-left: 0; padding-right: 0; border-bottom: 3px solid #3b3b4f;}
+fieldset:last-of-type{border-bottom: none;}
+input, textarea, select{min-height:2em; margin-bottom: 0; margin-left: 0; margin-right: 0; width: 100%;}
+.inline{width: unset;  vertical-align: middle;}
+input,textarea {background-color: #e7aed0; border:solid 1px #0a0a23; min-height: 2em; color: #0d0101;}
+input[type="submit"]{display: block; width: 30vw; min-width:300px; margin-top: 1em; margin-bottom: 1em; margin-right: auto; margin-left: auto; height: 2em; font-size: 1,1rem; background-color: #a43178; border-color: white;}
+input[type="file"]{padding: 1px 2px;}
+a{color: #e2dfe0;}
